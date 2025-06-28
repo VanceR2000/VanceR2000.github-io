@@ -34,3 +34,5 @@ plugins:
 collections:
   projects:
     output: true
+  essays:
+    output: true
