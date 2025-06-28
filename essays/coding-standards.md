@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: essay
 title: Why Coding Standards Matter
 type: essay
 date: 2024-06-27
