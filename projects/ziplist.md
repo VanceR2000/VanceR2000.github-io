@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Ziplist
 type: project
 date: 2024-06-27
