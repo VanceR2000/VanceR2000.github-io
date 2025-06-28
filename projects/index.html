@@ -1,6 +1,10 @@
----
-title: Projects
-layout: home
----
+<h2>Projects</h2>
 
-{% include projects/projects.html %}
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <h3><a href="{{ project.link }}">{{ project.title }}</a></h3>
+      <p>{{ project.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
