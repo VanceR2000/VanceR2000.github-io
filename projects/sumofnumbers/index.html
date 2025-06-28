@@ -5,7 +5,26 @@
   <title>Sum of Numbers</title>
 </head>
 <body>
-  <h1>Check Console</h1>
+  <h1>Sum of Numbers Results</h1>
+  <div id="output">
+    <p>Loading...</p>
+  </div>
+
   <script src="sumofnumbers.js"></script>
+  <script>
+    // Make sure sumOfNumbers.js defines these functions:
+    const values = [1, 2, 3, 4];
+
+    const results = [
+      `sumFor: ${sumFor(values)}`,
+      `sumWhile: ${sumWhile(values)}`,
+      `sumRecursion: ${sumRecursion(values)}`,
+      `sumTheFunctionalWay: ${sumTheFunctionalWay(values)}`
+    ];
+
+    document.getElementById('output').innerHTML = results
+      .map(r => `<p>${r}</p>`)
+      .join('');
+  </script>
 </body>
 </html>
