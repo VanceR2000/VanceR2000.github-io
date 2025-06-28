@@ -30,11 +30,3 @@ Of course, using ESLint wasn’t always smooth sailing. Like going to the gym, o
 And let’s not forget—coding standards go beyond formatting. They include naming conventions, function structure, documentation style, and error handling practices. When a project has solid standards—and tools like ESLint or Prettier to reinforce them—it becomes more secure, more flexible, and easier to maintain. You don’t have to memorize every rule because the tooling guides you.
 
 In the end, I think coding standards are one of the most underappreciated pillars of good development. They aren’t just about avoiding arguments over tabs and spaces. They help us write smarter code, learn faster, and collaborate better. That’s why I believe following coding standards isn't optional—it’s essential if you want to grow as a developer.
-
-<figure style="text-align: center; margin: 20px 0;">
-  <img src="/img/eslint.webp" alt="ESLint screenshot"
-       style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
-  <figcaption style="font-size: 0.9em; color: #555;">
-    Figure: ESLint catching syntax issues in VS Code.
-  </figcaption>
-</figure>
